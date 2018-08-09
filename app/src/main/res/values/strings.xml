@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TravelO</string>
+    <string name="desc_placeholder">Lorem ipsum dolor sit amet, usu ut zril intellegam.
+        Eros tempor duo ei, sit eirmod integre intellegebat at.
+        Error placerat quo in. Et viderer intellegat persequeris mel,
+        vis epicurei referrentur an.
+    </string>
+    <string name="header">Header</string>
+    <string name="foodHeader">Get the best food</string>
+    <string name="hotelHeader">Get the best hotels around</string>
+    <string name="placesHeader">Most recommended tourist Spots</string>
+</resources>
