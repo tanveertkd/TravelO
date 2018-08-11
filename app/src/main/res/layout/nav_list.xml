@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--<LinearLayout-->
+        <!--android:id="@+id/main_home_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
+
+        <FrameLayout
+            android:id="@+id/hotel_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/category_image"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hotel" />
+            <View
+                android:id="@+id/grad"
+                android:layout_height="110dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient_splash"
+                android:alpha="0.4" />
+
+            <TextView
+                android:id="@+id/category_header"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="Hotels"
+                android:gravity="center_vertical"
+                android:textColor="@color/textBlack"
+                android:textSize="25sp"
+                android:textAlignment="center" />
+        </FrameLayout>
+        <!--
+        <FrameLayout
+            android:id="@+id/restaurants_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/category_restaurants_image"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/restaurant" />
+
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient_splash"
+                android:alpha="0.4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Restaurants"
+                android:gravity="center_vertical"
+                android:textColor="@color/textBlack"
+                android:textSize="25sp"
+                android:textAlignment="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/places_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/category_places_image"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/places" />
+
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient_splash"
+                android:alpha="0.4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Places"
+                android:gravity="center_vertical"
+                android:textColor="@color/textBlack"
+                android:textSize="25sp"
+                android:textAlignment="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/events_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/category_events_image"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/events" />
+
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient_splash"
+                android:alpha="0.4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Events"
+                android:gravity="center_vertical"
+                android:textColor="@color/textBlack"
+                android:textSize="25sp"
+                android:textAlignment="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/info_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/category_info_image"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/info" />
+
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/gradient_splash"
+                android:alpha="0.4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Information"
+                android:gravity="center_vertical"
+                android:textColor="@color/textBlack"
+                android:textSize="25sp"
+                android:textAlignment="center" />
+        </FrameLayout>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

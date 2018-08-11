@@ -96,16 +96,15 @@ public class MainActivity extends AppCompatActivity {
 
                 mnextBtn.setText("Finish");
                 mbackBtn.setText("Back");
-                //for intent
-//                mnextBtn.setOnClickListener(new View.OnClickListener() {ADD STUFF HERE TOMORROW
-//                    @Override
-//                    public void onClick(View view) {
-//                        Intent home = new Intent(MainActivity.this, navigation.class);
-//                        startActivity(home);
-//                        finish();
-//                    }
-//                });
-                Toast.makeText(MainActivity.this, "Reached the end", Toast.LENGTH_SHORT).show();
+                mnextBtn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent home = new Intent(MainActivity.this, NavigationActivity.class);
+                        startActivity(home);
+                        finish();
+                    }
+                });
+                //Toast.makeText(MainActivity.this, "Reached the end", Toast.LENGTH_SHORT).show();
             } else {
                 mnextBtn.setEnabled(true);
                 mbackBtn.setEnabled(true);
